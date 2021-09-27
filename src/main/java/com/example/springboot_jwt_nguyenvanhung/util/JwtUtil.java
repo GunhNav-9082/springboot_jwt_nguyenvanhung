@@ -17,7 +17,7 @@ import java.util.Date;
 public class JwtUtil {
 
     private static Logger logger = LoggerFactory.getLogger(JwtUtil.class);
-    private static final String USER = "Hung";
+    private static final String USER = "hung";
     private static final String SECRET = "hey Mr Hung the secrect length must be at least 256 bits" +
             " please no reveal!";
 
