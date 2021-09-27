@@ -13,8 +13,10 @@ import java.util.Date;
 @Getter
 @Setter
 public class Token extends BaseEntity {
+
     @Column(length = 1000)
     private String token;
 
     private Date tokenExpDate;
+
 }

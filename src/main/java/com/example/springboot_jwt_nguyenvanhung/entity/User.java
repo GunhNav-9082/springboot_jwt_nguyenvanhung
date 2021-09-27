@@ -12,6 +12,7 @@ import java.util.Set;
 @Getter
 @Setter
 public class User extends BaseEntity {
+
     private String username;
 
     private String password;
@@ -21,5 +22,7 @@ public class User extends BaseEntity {
             inverseJoinColumns = {@JoinColumn(name = "role_id")})
 
     private Set<Role> roles = new HashSet<>();
+
+
 
 }
